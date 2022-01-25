@@ -20,5 +20,15 @@
 
   \include "parts/IV.ly"
   \include "parts/V.ly"
+
+  \pageBreak
+  
+  \include "parts/VI.ly"
+  \include "parts/VII.ly"
+
+  \pageBreak
+
+  \include "parts/VIII.ly"
+  \include "parts/IX.ly"
 }
 
