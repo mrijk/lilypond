@@ -12,6 +12,7 @@
     title = \markup { \underline "THIRTY MELODIES." }
   }
 
+%{
   \include "parts/I.ly"
   \include "parts/II.ly"
   \include "parts/III.ly"
@@ -30,5 +31,9 @@
 
   \include "parts/VIII.ly"
   \include "parts/IX.ly"
+
+  \pageBreak %}
+  \include "parts/X.ly"
+  \include "parts/XI.ly"
 }
 
