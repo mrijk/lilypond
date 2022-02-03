@@ -31,8 +31,8 @@
     d4 (g fis) \cresc
     e (a g)
     fis (d' c) \!
-    b2.\f~\> b4 \!
-    r4 e\mf (c2 b4 a2 b4)
+    b2.\>\f~b4
+    r4 \! e\mf (c2 b4 a2 b4)
     g2. (e4 fis g)
     d _(c' b a e fis)
 
@@ -41,7 +41,7 @@
     g2.\p~g4 r4 r4
     r2 r4 % fix me!
     r4 r4 d4\upbow\< (g a b d2)
-    e4 \! (c2 \> b4 a2 b4) \!
+    \! e4 (c2 \> b4 a2 b4) \!
     g2.~g4 r4
     g'4\mf (e2 d4 a2 b4)
 
@@ -49,7 +49,7 @@
 
     g (a b d2 c4)
     b2. \dim _(a) \!
-    g\p~g~g4 r4
+    g\p~g^\markup {\italic "poco rit."}~g4 r4
     b (e b\dim d\!)
     b'2.~b~b4 r4 r4\fermata
 
