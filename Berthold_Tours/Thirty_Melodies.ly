@@ -32,8 +32,21 @@
   \include "parts/VIII.ly"
   \include "parts/IX.ly"
 
-  \pageBreak %}
+
   \include "parts/X.ly"
   \include "parts/XI.ly"
+
+  \pageBreak
+
+  \pageBreak
+ %}
+  \include "parts/XII.ly"
+  \include "parts/XIII.ly"
+
+%{
+  \pageBreak
+  \include "parts/XIV.ly"
+  \include "parts/XV.ly"
+%}
 }
 

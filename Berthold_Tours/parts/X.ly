@@ -10,7 +10,7 @@
 
   
     \mark \markup { \italic "Allegretto grazioso." }
-    \tempo 4 = 84
+    \tempo 2 = 84
 
     e''4\p\downbow (c2 b4 a2 e'4)
     d2. (b4 c b)

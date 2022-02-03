@@ -10,7 +10,7 @@
     \partial 4
   
     \mark \markup { \italic "Allegro con brio." }
-    \tempo 4 = 88
+    \tempo 2 = 88
 
     d'4\f
     g g g8 fis g a
