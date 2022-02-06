@@ -16,11 +16,12 @@ This will generate a pdf file with part of 'Thirty melodies' by Berthold Tours.
 To accurately generate the Lilypond files from the original sheet music, I use the following checklist:
 
 - check title
-- check tempo
+- check tempo and tempo pitch
 - check notes and rests
 - check bows
 - check ties
 - check crescendo and decrescendo marks
 - check textual crescendo and decrescendo
 - check p/pp/mf/etc annotation
+- check stacatto
 - check direction of stems for middle note

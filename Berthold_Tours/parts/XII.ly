@@ -19,7 +19,7 @@
     a2 c4\staccato b\staccato
     a (e) c'\staccato b\staccato
 
-    \break
+    \break % 2
 
     a2 fis'4\staccato e\staccato
     e \< (d) d\staccato a\staccato \!
@@ -29,16 +29,16 @@
     b (a) \cresc a\staccato gis\staccato
     a2 fis'4\staccato e\staccato
 
-    \break
+    \break % 3
 
     e (d) \! d\staccato cis\staccato
-    d2 c4\staccato a\staccato
+    d2 c!4\staccato a\staccato
     d^> (c) \dim a\staccato b\staccato \!
     g2\p fis4 g
     gis (a) b \< c
-    d2^> \! e4 b
+    d2^> \!e4 b
 
-    \break
+    \break % 4
 
     d (a) \> b fis \!
     g2\p fis4 g
@@ -47,7 +47,7 @@
     dis (e) fis g \!
     b2\f^> a4 g
 
-    \break
+    \break % 5
 
     g (d) e b \dim
     c (e,) fis g

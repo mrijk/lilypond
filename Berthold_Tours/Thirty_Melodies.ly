@@ -39,14 +39,20 @@
   \pageBreak
 
   \pageBreak
- %}
+
+%}
+
   \include "parts/XII.ly"
   \include "parts/XIII.ly"
 
-%{
   \pageBreak
+
+
   \include "parts/XIV.ly"
+
+  \pageBreak
+
   \include "parts/XV.ly"
-%}
+
 }
 
