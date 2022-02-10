@@ -40,7 +40,6 @@
 
   \pageBreak
 
-%}
 
   \include "parts/XII.ly"
   \include "parts/XIII.ly"
@@ -50,9 +49,14 @@
 
   \include "parts/XIV.ly"
 
+
   \pageBreak
 
   \include "parts/XV.ly"
+
+  \pageBreak
+%}
+  \include "parts/XVI.ly"  
 
 }
 
