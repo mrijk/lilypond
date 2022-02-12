@@ -1,6 +1,8 @@
 
 \version "2.20.0"  % necessary for upgrading to future LilyPond versions.
 
+ aTempo = \markup {\italic "a Tempo"}
+
 
 \book {
 
@@ -11,6 +13,7 @@
   \header{
     title = \markup { \underline "THIRTY MELODIES." }
   }
+
 
 %{
   \include "parts/I.ly"
@@ -55,8 +58,9 @@
   \include "parts/XV.ly"
 
   \pageBreak
-%}
-  \include "parts/XVI.ly"  
-
+ %}
+  \include "parts/XVI.ly"
+ 
+  \include "parts/XVII.ly"
 }
 
