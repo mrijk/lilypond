@@ -58,9 +58,9 @@
   \include "parts/XV.ly"
 
   \pageBreak
- %}
+
   \include "parts/XVI.ly"
- 
+ %} 
   \include "parts/XVII.ly"
 }
 
