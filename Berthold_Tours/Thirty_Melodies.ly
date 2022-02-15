@@ -62,8 +62,12 @@
   \include "parts/XVI.ly"
  
   \include "parts/XVII.ly"
-  %}
+
   \include "parts/XVIII.ly"
   \include "parts/XIX.ly"
+
+  %}
+
+  \include "parts/XX.ly"
 }
 
