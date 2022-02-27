@@ -13,11 +13,10 @@
     a'8\p (d b) g (e fis)
     d4 (a'8) g4 (d8)
     a'8 (d b) g (e fis)
-    d4 (a'8) d,4.
-    e8 (gis c)
-    \cresc b (a e')
+    e4 (a8) d,4.
+    e8 (gis c) \cresc b (a e')
 
-    \break
+    \break % 2
 
 
     d (fis b) a (g d) \!
@@ -27,15 +26,13 @@
     d4 (a'8) g4 (d8)
     a' (d b) g (d fis)
 
-    \break
+    \break % 3
 
-    e4 (a8) e4.\dim
-    fis4 (d'8) d,4.
-    d8\pp\! (g e)
-    d (b c)
-    d (g e)
-    d (b a)
-    a2.~
+    e4 (a8) e4.\dim |
+    fis4 (d'8) d,4. |
+    d8\pp\! (g e) d (b c) |
+    d (g ^\markup {\italic "poco rit." } e) d (b a) |
+    a2.~ |
     a8 r8 r4 r8\fermata
     
     \bar "|."

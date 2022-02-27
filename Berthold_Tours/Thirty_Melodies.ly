@@ -27,7 +27,6 @@
 
   \pageBreak
 
-%{
 
   \include "parts/VI.ly"
   \include "parts/VII.ly"
@@ -68,7 +67,6 @@
   \include "parts/XVIII.ly"
   \include "parts/XIX.ly"
 
-  %}
 
   \include "parts/XX.ly"
 }

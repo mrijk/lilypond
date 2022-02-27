@@ -14,7 +14,7 @@
     c (e, g b)
     a4 ~ (a8. g16)
 
-    \break
+    \break % 2
 
 
     g2
@@ -26,7 +26,7 @@
     b4 (c) \<
     c8 (b \! d c)
 
-    \break
+    \break % 3
 
     b4. \> (g'8) \!
     g\p (a g e)
@@ -38,29 +38,29 @@
     b ^\dim (c d8. c16) \!
     c2
 
-    \break
+    \break % 4
 
-    c8\pp (d b c)
+    c8\pp ^\markup {\italic "piu tranquillo" } (d b c)
     a4 (g)
     f8 (g e f)
     d2
     d'8 (e c d)
     b \< (d g f)
-    f \! (e a \> f)
-    d4 \! (a8 b)
+    f (\! e a \> f)
+    d4  (a8 \! b)
 
-    \break
+    \break % 5
     
     c\pp (d b c)
     a4 (g)
     g8 (a f g)
     e2
-    f8 (g a b)
+    fis8 (g a b)
     c (e b' a)
     g (e f8. g16)
     e2
 
-    \break
+    \break % 6
 
     g8\p (a g e)
     c (e, g b)
@@ -83,15 +83,15 @@
     b4. (g'8)
 
 
-    \break
+    \break % 7
 
     g8\p (a g e)
     c (e, g b)
     a4 \< (c) \!
-    e2
-    a8 (bes a e)
+    e2 \>
+    a8 \! (bes a e)
     f (e d a)
-    b (c d8. \dim c16) \!
+    b (c ^\markup {\italic poco rit. } d8. \dim c16) \!
     c2
     
 
