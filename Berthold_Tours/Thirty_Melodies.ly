@@ -15,18 +15,20 @@
   }
 
 
-%{
   \include "parts/I.ly"
   \include "parts/II.ly"
   \include "parts/III.ly"
 
   \pageBreak
 
+
   \include "parts/IV.ly"
   \include "parts/V.ly"
 
   \pageBreak
-  
+
+%{
+
   \include "parts/VI.ly"
   \include "parts/VII.ly"
 

@@ -9,7 +9,7 @@
 
   g4\p \< (b d g) \!
   fis2 \> (e) \!
-  d4 \< (fis a d) \!
+  d4 \< _(fis a d) \!
   c2 \> (b) \!
   a4 (c e\cresc b')
   b2 (a4) \! g~\mf

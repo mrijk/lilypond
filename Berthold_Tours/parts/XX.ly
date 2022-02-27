@@ -14,7 +14,7 @@
 
     d'8\p (g)
     g [(fis)] fis8-. _(r a-.) r
-    d,4 r4 d8 (b')
+    d,4 r d8 (b')
     b [(a)] a (r c-.) r
     d,4 r b'8 (d)
     d2 b8 \< (e) \!

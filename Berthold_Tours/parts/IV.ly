@@ -21,19 +21,19 @@
     a \> (f) d2 \!
     r4 e, \<  b' (e) \!
     e \> (c) a2 \!
-    r4 a\downbow (b c^"poco agitato")
+    r4 a\downbow  \cresc (b c^"poco agitato")
     r4 a\upbow (b c)
-    r4 a'\f (f^molto) c
+    \! r4 a'\f (f^molto) c
 
     \break
 
     a^\markup {\italic allargando } f c a
     r4^"a Tempo" a'\downbow\p \< (b c) \!
     b \> (e b2) \!
-    a4\p a'\staccato a,2~
-    a4 a'\staccato a,2~
-    a4 a'\staccato a,2~
-    a4 d\dim\staccato d,2 \!
+    a4\p a'-. a,2~
+    a4 a'-. a,2~
+    a4 a'-. a,2~
+    a4 ^\markup {\italic poco rit. } d-. \dim d,2 \!
     a1\pp~
     a1\fermata
     

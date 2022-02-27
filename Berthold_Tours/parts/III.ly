@@ -11,11 +11,11 @@
   a4 (c) c (d)
   e2 c
   a'4 (g) g (d)
-  e2 g,
+  e2 g, \cresc
 
   \break
 
-  b4 (a) b (d)
+  b4 (a) b (d) \!
   d2. \> r4 \!
   c\p\downbow (d) d (e)
   g2 e
