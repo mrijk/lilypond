@@ -15,6 +15,7 @@
   }
 
 
+%{
   \include "parts/I.ly"
   \include "parts/II.ly"
   \include "parts/III.ly"
@@ -32,10 +33,11 @@
   \include "parts/VII.ly"
 
   \pageBreak
-
+%}
   \include "parts/VIII.ly"
   \include "parts/IX.ly"
 
+  \pageBreak
 
   \include "parts/X.ly"
   \include "parts/XI.ly"

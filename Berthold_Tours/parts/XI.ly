@@ -8,7 +8,7 @@
     \partial 8
     
     \mark \markup { \italic "Vivace, scherzando." }
-    \tempo 4 = 92
+    \tempo 4. = 92
 
 
     e''8
@@ -19,7 +19,7 @@
     e \< f g | b (a) \! f
     e4._> \> (d8) r8 \! e'\p\upbow
 
-    \break
+    \break % 2
 
     c8 [r8 a]
     fis [r8 b']
@@ -27,24 +27,25 @@
     c [r b]
     a \< b c \!
     d c b
-    a4. (g8) r8 gis8\p
+    a4._> \> (g8) \! r8 gis8\p
     a8 [r cis]
 
-    \break
+    \break % 3
 
     f [r e]
     e d cis
-    d [r fis,]
+    d [r fis,\downbow]
     g [r b]
     e [r d]
     d c b
-    c [r c\mf]
+    c [r c\mf\downbow]
     b a gis
     a r r
 
-    \break
+    \break % 4
+
     R1*3/8
-    r8 r b8
+    r8 r b8\mf
     a g fis
     g r r
     R1*3/8
@@ -52,28 +53,27 @@
     c [r a]
     g [r e']
     c [r a]
-    g r f
+    g [r f]
     e \< f g
 
-
-    \break
+    \break % 5
 
     b (a) \! f
-    e4. (d8) r8 e'\p\upbow
-    c8 [r8 a]
+    e4._> \> (d8) \! r8 e'\p\upbow
+    c8 \cresc [r8 a]
     fis [r8 b']
-    g [r e]
+    \! g\f [r e]
     c [r a]
     g b c
-    e d e
-    d4. (c8) r b
+    e \dim d e
+    d4. \! (c8\p) r b
 
-    \break
+    \break % 6
 
     c [r e]
     a [r g]
     g f e
-    f r fis,
+    f r fis,\downbow
     g [r b]
     e [r d]
     d c b
@@ -82,7 +82,7 @@
     \cresc a [r g]
     g f e
 
-    \break
+    \break % 7
 
     g \! [r f]
     e d cis \dim

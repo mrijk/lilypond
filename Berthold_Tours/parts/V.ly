@@ -16,7 +16,6 @@
 
     \break % 2
 
-
     g2
     a4 (b)
     c \cresc (d8 e)

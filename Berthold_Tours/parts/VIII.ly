@@ -16,7 +16,7 @@
     g g g8 fis g a
     b4 a g g8 a
     b \< (a) g d' b4 cis \!
-    \> e2 d4 \! a8\mf b
+    e2 \> d4 \! a8\mf b
 
     \break % 2
 
@@ -29,10 +29,10 @@
     \break % 3
 
     b4 a g g8 a
-    b (a) g a b4 d
-    d2 c4 e8 (d)
-    d (c) c (b) a4 a'8 (g)
-    g (fis) fis (e) d4 c\f
+    b (a) g \< a b4 d \!
+    d2^> \> c4 \! e8\mf\upbow (d)
+    d (c) c (b) \cresc a4 a'8 (g)
+    g (fis) fis (e) d4 \! c\f
 
     \break % 4
 
