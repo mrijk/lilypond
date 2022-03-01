@@ -22,19 +22,19 @@
 
     \break % 2
 
-    f4.~ (f8 bes d)
+    f4.~ \< (f8 bes d) \!
     f4.\mf~ (f8 g d)
     f4.~ (f8 es d)
-    d4.~ (d8 c a)
-    g4. (f4) f8\p
+    d4.~ \> (d8 c a)
+    g4. (f4) \! f8\p
 
 
     \break % 3
 
     d'4.~ (d8 bes a)
     g4.~ (g8 a bes)
-    c4.~ (c8 a g)
-    f4.~ (f8 bes d)
+    c4.~ (c8 _[a g])
+    f4.~ \< (f8 bes d) \!
     f4.\mf (f8 e d)
 
 
@@ -55,8 +55,8 @@
     
     \break % 6
 
-    g (f e es! c a)
-    g (g a bes c cis)
+    g\f (f e es! ^\markup {\italic "poco ritard."} c a)
+    g \dim \! (g a bes c cis)
     d4.~\p (d8 bes a)
     g4.~ (g8 a bes)
     c4.~ (c8 a g)
@@ -71,17 +71,17 @@
 
     \break % 8
 
-    a4.~a8 g f
+    a4.\f ^\aTempo ~a8 g f
     bes (a g f) es d
     c4.\> ~c8 d es \!
     d4. \< ~d8 f bes \!
-    bes4.\f~bes8 a-- g--
+    bes4.\f _\markup {\italic "con passione"} ~bes8 a-- g--
 
     \break % 9
 
-    g (f d bes) f \< fis
+    g (f d bes) f-- \< fis--
     g (bes \! es) d4 \> (c8) \!
-    bes4. ~bes8 d,\p (f)
+    bes4. ^\markup {\italic Tranquillo} ~bes8 d,\p (f)
     bes4. \dim ~bes8 \! es (g)
     bes2.\pp
     ~bes4 r8 r4 r8\fermata

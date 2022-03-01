@@ -33,7 +33,7 @@
   \include "parts/VII.ly"
 
   \pageBreak
-%}
+
   \include "parts/VIII.ly"
   \include "parts/IX.ly"
 
@@ -44,17 +44,12 @@
 
   \pageBreak
 
-  \pageBreak
-
-
   \include "parts/XII.ly"
   \include "parts/XIII.ly"
 
   \pageBreak
 
-
   \include "parts/XIV.ly"
-
 
   \pageBreak
 
@@ -62,14 +57,27 @@
 
   \pageBreak
 
-  \include "parts/XVI.ly"
- 
+  \include "parts/XVI.ly" 
+
+  \pageBreak
+
   \include "parts/XVII.ly"
+
+  \pageBreak
 
   \include "parts/XVIII.ly"
   \include "parts/XIX.ly"
 
+  \pageBreak
 
   \include "parts/XX.ly"
+
+  \pageBreak
+%}
+
+  \include "parts/XXI.ly"
+  \include "parts/XXII.ly"
+
+  \pageBreak
 }
 

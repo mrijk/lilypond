@@ -65,7 +65,7 @@
 
     a4 \> f \!) d8\p (c
     bes! c d c bes c
-    d c bes a g f \dim)
+    _[d c bes a g \dim f])
     e \! (g bes c e g
     f4\staccato\pp) r r\fermata
 
