@@ -1,6 +1,6 @@
 \score {
   \header {
-    title="XX."
+    title="XXI."
   }
 
   \relative {
@@ -12,7 +12,7 @@
     \mark \markup {\italic "Allegretto comodo"}
     \tempo 4 = 160
 
-    d'8\p fis
+    d'8^"pizz."\p fis
     g [a] b r d r
     b r g r a b
     c [d] e r g r
@@ -25,15 +25,15 @@
     a b a g fis e
     d r r d \< e fis
     g [a] \! b r d \> r
-    b \! r g \> e fis gis
-    a [b] \! c r e r
-    c r r b \< c [e] \!
+    b \! r g \< e fis gis
+    a [b] \! c r \> e r
+    \! c r r b \< c [e] \!
 
     \break % 3
 
     b'\f a g e c a
     e' d b g fis e
-    d e d c b a
+    d e \dim \! d c b a
     g r r4 r
     d'8\p fis a d fis a
     b g d b g d

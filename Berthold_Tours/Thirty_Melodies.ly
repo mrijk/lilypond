@@ -73,10 +73,14 @@
   \include "parts/XX.ly"
 
   \pageBreak
-%}
 
   \include "parts/XXI.ly"
   \include "parts/XXII.ly"
+
+  \pageBreak
+%}
+
+  \include "parts/XXIII.ly"
 
   \pageBreak
 }
