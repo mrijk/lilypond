@@ -3,8 +3,7 @@
   \relative {
     \compoundMeter #'((2 4))
 
-    \mark \markup { \italic "Allegretto." }
-    \tempo 4 = 100
+    \tempo \markup { \italic "Allegretto." } 4 = 100
 
     g''8\p (a g e)
     c (e, g b)
@@ -39,28 +38,30 @@
 
     \break % 4
 
+    \key g \major
     c8\pp ^\markup {\italic "piu tranquillo" } (d b c)
     a4 (g)
-    f8 (g e f)
+    fis8 (g e fis)
     d2
     d'8 (e c d)
-    b \< (d g f)
-    f (\! e a \> f)
+    b \< (d g fis)
+    fis (\! e a \> fis)
     d4  (a8 \! b)
 
     \break % 5
     
     c\pp (d b c)
     a4 (g)
-    g8 (a f g)
+    g8 (a fis g)
     e2
-    fis8 (g a b)
+    f8 (g a b)
     c (e b' a)
-    g (e f8. g16)
-    e2
+    g (e fis8. g16)
+    g2
 
     \break % 6
 
+    \key c \major
     g8\p (a g e)
     c (e, g b)
     a4 (c)
@@ -72,7 +73,7 @@
 
     \break
 
-    a4 (b)
+    a4_(b)
     c \cresc (d8 e)
     f4 (g) \!
     a4.\mf (g8)

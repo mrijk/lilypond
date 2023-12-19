@@ -7,8 +7,7 @@
     \time 3/8
     \partial 8
     
-    \mark \markup { \italic "Vivace, scherzando." }
-    \tempo 4. = 92
+    \tempo \markup { \italic "Vivace, scherzando." } 4. = 92
 
 
     e''8
@@ -34,11 +33,11 @@
 
     f [r e]
     e d cis
-    d [r fis,\downbow]
+    d [r fis,\upbow]
     g [r b]
     e [r d]
     d c b
-    c [r c\mf\downbow]
+    c [r c\mf\upbow]
     b a gis
     a r r
 
@@ -73,12 +72,12 @@
     c [r e]
     a [r g]
     g f e
-    f r fis,\downbow
+    f r fis,\upbow
     g [r b]
     e [r d]
     d c b
-    c [r a,]
-    b [r e]
+    c r b,\upbow
+    c [r e]
     \cresc a [r g]
     g f e
 
@@ -93,9 +92,9 @@
     c e g
     c, r r
     R1*3/8
-    c,8\pp^"pizz." r r
+    b,8\pp^"pizz." r r
     R1*3/8
-    d8 r r\fermata
+    c8 r r\fermata
 
     \bar "|."
   }

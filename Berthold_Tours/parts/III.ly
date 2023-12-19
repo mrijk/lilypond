@@ -3,8 +3,7 @@
 \relative {
   \compoundMeter #'((4 4))
   
-  \mark \markup { \italic "Andante tranquillo." }
-  \tempo 4 = 88
+  \tempo \markup { \italic "Andante tranquillo." } 4 = 88
 
   c'4\p (d) d (e)
   g2 e
@@ -15,7 +14,7 @@
 
   \break
 
-  b4 (a) b (d) \!
+  b4 (a) a (d) \!
   d2. \> r4 \!
   c\p\downbow (d) d (e)
   g2 e

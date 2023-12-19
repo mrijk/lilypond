@@ -9,8 +9,7 @@
     \partial 4
 
   
-    \mark \markup \left-column { \italic "Allegretto grazioso" \italic "(Tempo di Valse.)"}
-    \tempo 2. = 84
+    \tempo \markup \left-column { \italic "Allegretto grazioso" \italic "(Tempo di Valse.)"} 2. = 84
 
     e''4\p\downbow (c2 b4 a2 e'4)
     d2. (b4 c b)

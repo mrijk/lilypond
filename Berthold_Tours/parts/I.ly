@@ -7,8 +7,7 @@
   \relative {
     \compoundMeter #'((4 4))
   
-    \mark \markup { \italic "Maestoso assai." }
-    \tempo 4 = 72
+    \tempo \markup { \italic "Maestoso assai." } 4 = 72
 
     c'2\mf( e)
     g1

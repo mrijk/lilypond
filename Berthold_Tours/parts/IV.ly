@@ -3,8 +3,7 @@
   \relative {
     \compoundMeter #'((4 4))
   
-    \mark \markup { \italic "Andante con moto." }
-    \tempo 4 = 92
+    \tempo \markup { \italic "Andante con moto." } 4 = 92
 
     r4 a'\downbow\p (b c)
     b (e b2)

@@ -6,8 +6,7 @@
   \relative {
     \time 4 2/4
   
-    \mark \markup { \italic "Allegretto giocoso." }
-    \tempo 4 = 116
+    \tempo \markup { \italic "Allegretto giocoso." } 4 = 116
 
     e''4^>\p c8 b
     a4_> b8 c
@@ -31,7 +30,7 @@
     g^> (f) a, c
     e4^> \> d \!
     c~c8 r8
-    b4\mf\downbow (a8 g)
+    b4\mf\downbow^\markup {\italic "più tranquillo." }_(a8 g)
     fis4 (a8 c)
     e4 (d8 c)
     b4 \< (d8 g) \!
@@ -42,7 +41,7 @@
     e (b)
     cis4 (b8 a)
     d4\dim (c)
-    b\mf (a8 g)
+    b\mf _(a8 g)
     g (fis a c)
     e4 (d8 \cresc c) \!
 

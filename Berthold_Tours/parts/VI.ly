@@ -7,8 +7,7 @@
     \key g \major
     \time 3 6/8
   
-    \mark \markup { \italic "Allegretto comodo." }
-    \tempo 4 = 76
+    \tempo \markup { \italic "Allegretto comodo." } 4 = 76
 
     a'8\p (d b) g (e fis)
     d4 (a'8) g4 (d8)
@@ -20,7 +19,7 @@
 
 
     d (fis b) a (g d) \!
-    fis\f (e b) d (c e,)
+    fis\f (e b) \stemDown d (c e,) \stemNeutral
     g (\dim fis d) d'4.\!
     a8\p (d b) g (e fis)
     d4 (a'8) g4 (d8)
@@ -32,8 +31,8 @@
     fis4 (d'8) d,4. |
     d8\pp\! (g e) d (b c) |
     d (g ^\markup {\italic "poco rit." } e) d (b a) |
-    a2.~ |
-    a8 r8 r4 r8\fermata
+    g2.~ |
+    g4 r8 r4 r8\fermata
     
     \bar "|."
   }

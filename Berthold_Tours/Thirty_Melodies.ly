@@ -15,10 +15,10 @@
   }
 
 
-%{
   \include "parts/I.ly"
   \include "parts/II.ly"
   \include "parts/III.ly"
+
 
   \pageBreak
 
@@ -26,6 +26,7 @@
   \include "parts/IV.ly"
   \include "parts/V.ly"
 
+%{ 
   \pageBreak
 
 
@@ -78,10 +79,12 @@
   \include "parts/XXII.ly"
 
   \pageBreak
-%}
 
   \include "parts/XXIII.ly"
 
   \pageBreak
+
+  \include "parts/XXIV.ly"
+  %}
 }
 

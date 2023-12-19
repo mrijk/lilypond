@@ -4,8 +4,7 @@
   \key g \major
   \compoundMeter #'((4 4))
   
-  \mark \markup { \italic "Larghetto." }
-  \tempo 4 = 80
+  \tempo \markup { \italic "Larghetto." } 4 = 80
 
   g4\p \< (b d g) \!
   fis2 \> (e) \!
